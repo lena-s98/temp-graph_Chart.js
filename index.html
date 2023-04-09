@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NASA Global Temp Graph</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.umd.js"
+			defer
+		></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div>
+			<canvas id="chart"></canvas>
+			<p>
+				This chart shows how the average global temperature is rising since 1880
+				- 2022
+			</p>
+			<p class="copyright">
+				&copy GISTEMP Team, 2023: GISS Surface Temperature Analysis (GISTEMP),
+				version 4. NASA Goddard Institute for Space Studies.
+				<br />
+				Dataset accessed 2023-04-09 at https://data.giss.nasa.gov/gistemp/.
+			</p>
+		</div>
+		<div>
+			<canvas id="germanChart"></canvas>
+			<p>
+				This chart shows how the average temperature in Germany is slowly rising
+				since 1881 - 2022
+			</p>
+			<p class="copyright">
+				&copy tempsvrai.com 1992-2023
+				<br />
+				Dataset accessed 2023-04-09 at
+				https://meteo.plus/wetterstatistik-deutschland-jahr.php#temperatur.
+			</p>
+		</div>
+	</body>
+</html>
